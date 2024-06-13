@@ -1,0 +1,32 @@
+# This is my first Yaml file and this is a comment in yaml .This is That
+# Sacalar
+my_name: "Ayush Srivastava"
+age: 22
+is_eng: True
+
+# List
+Subject:
+- Chemistry
+- Physics
+- Maths
+
+Tools: ["Aws","Kubernetes","Docker","Adobe Xd"]
+
+dev_details: 
+- name: "abc"
+  email: "abc@gmail.com"
+- name: "abc"
+  email: "abc@gmail.com"
+- name: "abc"
+  email: "abc@gmail.com"
+- {name: "abc" , email: "abc@gmail.com" }
+
+way1: >
+  This is 
+  One way 
+  To write multiline
+
+way2: |
+  This is 
+  Another way 
+  To write multiline
